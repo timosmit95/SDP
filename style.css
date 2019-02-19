@@ -1,185 +1,275 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-	font-family: 'Muli', sans-serif;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
-h1 , h2 , h3 {
-	font-family: 'Vollkorn', serif;
-	color: #fff;
-	padding-bottom: 10px;
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'Muli', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Vollkorn', serif;
+    color: #fff;
+    padding-bottom: 10px;
 }
 
 h2 {
-	font-size: 52px;
+    font-size: 52px;
 }
 
 p {
-	font-family: 'Muli', sans-serif;
-	font-size: 16px;
-	line-height: 32px;
-	color: #898989;
+    font-family: 'Muli', sans-serif;
+    font-size: 16px;
+    line-height: 32px;
+    color: #898989;
 }
-	
+
 /*-----End CSS Reset-----*/
 
 header {
-	position: relative;
-	background: url(img/header-piano.png) center top;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
-	padding: 200px 0 100px 0;
+    position: relative;
+    background: url(img/header-piano.png) center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 200px 0 100px 0;
 }
 
 header:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-image: linear-gradient(-180deg, #141414 0%, rgba(0,0,0,0.00) 0%, #141414 100%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(-180deg, #141414 0%, rgba(0, 0, 0, 0.00) 0%, #141414 100%);
 }
 
 .banner__content {
-  position: relative;
-  z-index: 10;
+    position: relative;
+    z-index: 10;
 }
 
 header h1 {
-	font-size: 82px;
-	line-height: 111px;
-	color: #fff;
-	margin-bottom: 20px;
+    font-size: 82px;
+    line-height: 111px;
+    color: #fff;
+    margin-bottom: 20px;
 }
 
 .name h2 {
-	font-family: 'Muli', sans-serif;
-	text-transform: uppercase;
-	font-size: 21px;
-	letter-spacing: 5px;
-	color: #A1A09F;
+    font-family: 'Muli', sans-serif;
+    text-transform: uppercase;
+    font-size: 21px;
+    letter-spacing: 5px;
+    color: #A1A09F;
 }
 
 .arrow {
-	margin-top: 250px;
-	text-align: center;
+    margin-top: 250px;
+    text-align: center;
 }
 
 .fa-chevron-down {
-	color: #A0A0A0;
-	display: inline-block;
+    color: #A0A0A0;
+    display: inline-block;
 }
 
 .bg-wrapper {
-	background: #141414;
-	height:100%;
+    background: #141414;
+    height: 100%;
 }
 
 .project {
-	padding: 200px 0;
+    padding: 200px 0;
 }
 
 .project-text {
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 .about {
-	margin: 200px 0;
+    margin: 200px 0;
 }
 
 .about-text {
-	margin-top: 80px;
+    margin-top: 80px;
 }
 
 .shows {
-	margin: 200px 0;
+    margin: 200px 0;
 }
 
 .boxvideo {
     border: 25px solid;
-	border-image-source: url(img/new-border.svg);
-	border-image-slice: 65;
-	box-sizing: border-box;
+    border-image-source: url(img/new-border.svg);
+    border-image-slice: 65;
+    box-sizing: border-box;
 }
 
 .boxvideo-2 {
     border: 25px solid;
-	border-image-source: url(img/new-border-2.svg);
-	border-image-slice: 65;
-	box-sizing: border-box;
+    border-image-source: url(img/new-border-2.svg);
+    border-image-slice: 65;
+    box-sizing: border-box;
 }
 
 .table {
-	margin-top: 20px;
-	color: #fff;
+    margin-top: 20px;
+    color: #fff;
 }
- 
 
-.table td, .table th {
-	padding: 20px;
-	vertical-align: 0;
-	border-top: 1px solid #fff;
-	border-bottom: 1px solid #fff;
+
+.table td,
+.table th {
+    padding: 20px;
+    vertical-align: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .table h4 {
-	font-size: 16px;
-	font-family: 'Muli', sans-serif;
-	font-weight: 600;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
 }
 
 .table p {
-	font-size: 16px;
-	font-family: 'Muli', sans-serif;
-	font-weight: 600;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 600;
 }
 
 .btn {
-	background: #637171;
-	color: #fff;
-	padding: 10px 20px;
+    background: #637171;
+    color: #fff;
+    padding: 10px 20px;
 }
 
 /* slide-show */
@@ -203,63 +293,102 @@ header h1 {
 }
 
 @-webkit-keyframes fadeinout {
-  0%,100% { opacity: 0; }
-  50% { opacity: 1; }
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
 
 @keyframes fadeinout {
-  0%,100% { opacity: 0; }
-  50% { opacity: 1; }
+
+    0%,
+    100% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
 }
+
 .quotebox {
-	background: #1C1D21;
-	padding: 20px;
-	text-align: center;
-	vertical-align: middle;
-line-height: 90px;
+    background: #1C1D21;
+    padding: 20px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
 }
 
 .quotebox h3 {
-	font-family: 'Muli', sans-serif;
-	line-height: 52px;
-	font-size: 24px;
+    font-family: 'Muli', sans-serif;
+    line-height: 52px;
+    font-size: 24px;
 }
 
 .fa-quote-right {
-	color: #333437;
-	display: inline-block;
+    color: #333437;
+    display: inline-block;
 }
 
 footer {
-	margin-top: 200px;
-	margin-bottom: 100px;
+    margin-top: 200px;
+    margin-bottom: 100px;
 }
 
 .contact {
-	border-bottom: 1px solid #5a5a5a;
-	text-align: center;
+    border-bottom: 1px solid #5a5a5a;
+    text-align: center;
+    border: 25px solid;
+    border-image-source: url(img/contact-border.svg);
+    border-image-slice: 65;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-bottom: 7%;
+}
+
+.contact h2 {
+    padding-bottom: 6%;
+    font-size: 40px;
 }
 
 .contact h3 {
-	color: #fff;
-	font-size: 24px;
-	font-family: 'Muli', sans-serif;
-	padding-bottom: 47px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    transition: ease-in-out 300ms;
+}
+
+.contact a:hover{
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #637171;
 }
 
 .info h4 {
-	padding-top: 20px;
-	color: #a1a1a1;
-	font-size: 16px;
-	font-family: 'Muli', sans-serif;
+    padding-top: 20px;
+    color: #a1a1a1;
+    font-size: 16px;
+    font-family: 'Muli', sans-serif;
 }
 
 .social {
-	padding-top: 10px;
+    padding-top: 10px;
 }
 
 .social .fab {
-	float: right;
-	color: #fff;
-	padding-right: 24px;
+    float: right;
+    color: #fff;
+    padding-right: 24px;
+    transition: ease-in-out 300ms;
+}
+
+.fab:hover {
+    color: #637171;
 }
