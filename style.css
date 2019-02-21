@@ -284,9 +284,14 @@ footer {
 }
 
 .social .fab {
-	float: right;
-	color: #fff;
-	padding-right: 24px;
+    float: right;
+    color: #fff;
+    padding-right: 24px;
+    transition: ease-in-out 300ms;
+}
+
+.fab:hover {
+    color: #637171;
 }
 
 audio {
