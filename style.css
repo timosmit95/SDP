@@ -242,15 +242,34 @@ footer {
 }
 
 .contact {
-	border-bottom: 1px solid #5a5a5a;
-	text-align: center;
+    border-bottom: 1px solid #5a5a5a;
+    text-align: center;
+    border: 25px solid;
+    border-image-source: url(img/contact-border.svg);
+    border-image-slice: 65;
+    box-sizing: border-box;
+    padding: 2%;
+    margin-bottom: 7%;
+}
+
+.contact h2 {
+    padding-bottom: 6%;
+    font-size: 40px;
 }
 
 .contact h3 {
-	color: #fff;
-	font-size: 24px;
-	font-family: 'Muli', sans-serif;
-	padding-bottom: 47px;
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Muli', sans-serif;
+    transition: ease-in-out 300ms;
+}
+
+.contact a:hover {
+    text-decoration: none;
+}
+
+.email:hover {
+    color: #637171;
 }
 
 .info h4 {
